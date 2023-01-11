@@ -7,13 +7,19 @@ int[] pointA = new int[3];
 int[] pointB = new int[3];
 
 Console.WriteLine("Введите координаты точки А: ");
+Console.Write("X: ");
 pointA[0] = Convert.ToInt32(Console.ReadLine());
+Console.Write("Y: ");
 pointA[1] = Convert.ToInt32(Console.ReadLine());
+Console.Write("Z: ");
 pointA[2] = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите координаты точки B: ");
+Console.Write("X: ");
 pointB[0] = Convert.ToInt32(Console.ReadLine());
+Console.Write("Y: ");
 pointB[1] = Convert.ToInt32(Console.ReadLine());
+Console.Write("Z: ");
 pointB[2] = Convert.ToInt32(Console.ReadLine());
 
 Console.Write($"({pointA[0]},{pointA[1]},{pointA[2]})");
